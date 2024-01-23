@@ -22,6 +22,7 @@ class ReferralRequest extends FormRequest
     public function rules(): array
     {
         return [
+            'avatar' => 'required',
             'given_name' => 'required',
             'surname' => 'required',
             'email' => 'required|email',

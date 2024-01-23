@@ -10,6 +10,7 @@ class Referral extends Model
     use HasFactory;
 
     protected $fillable = [
+        'avatar',
         'given_name',
         'surname',
         'email',
