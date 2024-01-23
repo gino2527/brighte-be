@@ -17,6 +17,7 @@ class ReferralFactory extends Factory
     public function definition(): array
     {
         return [
+            'avatar' => '',
             'given_name' => fake()->firstName(),
             'surname' => fake()->lastName(),
             'email' => fake()->unique()->safeEmail(),
